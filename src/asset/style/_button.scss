@@ -1,0 +1,16 @@
+.btn {
+    padding: 8px 15px;
+    border-radius: 20px;
+
+}
+
+.btn-green {
+    background: var(--green);
+    color: var(--white) !important;
+    border: 1px solid var(--green);
+    transition: all 2s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

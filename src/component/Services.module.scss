@@ -1,0 +1,35 @@
+.service {
+    background: var(--white);
+    padding: 3rem 1rem;
+
+    h1 {
+        text-align: center;
+    }
+
+
+}
+
+.serviceContent {
+    div {
+        max-width: 350px;
+        padding: 1rem 3rem;
+        box-shadow: var(--box-shadow);
+        margin: 1rem;
+        border-radius: 35px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    p {
+        text-align: center;
+        padding: 0 0.5rem;
+    }
+
+    i {
+        font-size: 3rem;
+        color: var(--green);
+        padding: 0.6rem;
+    }
+}

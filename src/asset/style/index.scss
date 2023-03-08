@@ -1,0 +1,19 @@
+@use "./base";
+@use "./debug";
+@use "./flex";
+@use "./utils";
+@use "./variables";
+@use "./container";
+@use "./button";
+
+.image {
+  width: 390px;
+}
+
+.image-galerie {
+  width: 300px;
+}
+
+.div {
+  margin-right: 2rem;
+}

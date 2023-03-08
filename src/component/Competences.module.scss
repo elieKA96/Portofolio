@@ -1,0 +1,47 @@
+.competence {
+    background: var(--dark-content);
+    padding: 3rem 1rem;
+    color: var(--white);
+
+    h1 {
+        text-align: center;
+    }
+
+}
+
+.container {
+    width: 65%;
+    background: var(--white);
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(--white);
+    border-radius: 35px;
+}
+
+.html {
+    width: 80%;
+    background-color: var(--green);
+}
+
+.js {
+    width: 65%;
+    background-color: var(--green);
+    ;
+}
+
+.react {
+    width: 55%;
+    background-color: var(--green);
+    ;
+}
+
+.java {
+    width: 60%;
+    background-color: var(--green);
+}

@@ -1,0 +1,74 @@
+.contact {
+    background: var(--white);
+    padding: 3rem 1rem;
+
+    h1 {
+        text-align: center;
+    }
+
+}
+
+.contentContact {
+
+    div {
+        max-width: 350px;
+        padding: 1rem 3rem;
+        box-shadow: var(--box-shadow);
+        margin: 1rem;
+        border-radius: 35px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            text-align: center;
+        }
+
+
+        i {
+            font-size: 1.8rem;
+            color: var(--green);
+            padding: 0.6rem;
+        }
+    }
+
+    div:nth-child(2),
+    :nth-child(3) {
+        p:nth-child(2) {
+            padding-top: 0.5rem;
+        }
+    }
+}
+
+.social {
+    width: 400px;
+    height: 10vh;
+
+
+    a {
+        filter: grayscale(100%);
+        font-size: 1.8rem;
+        transition: all 2s;
+
+        &:first-child:hover {
+            filter: none;
+            transform: scale(1.1);
+            color: var(--color-instagram);
+        }
+
+        &:nth-child(2):hover {
+            filter: none;
+            transform: scale(1.1);
+            color: var(--color-linkedln);
+        }
+
+        &:nth-child(3):hover {
+            filter: none;
+            transform: scale(1.1);
+            color: var(--color-github);
+        }
+
+    }
+
+}
