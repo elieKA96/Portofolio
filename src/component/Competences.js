@@ -2,9 +2,9 @@ import style from './Competences.module.scss';
 
 function Competences() {
     return (
-        <div className={` ${style.competence}`} >
-            <div className='containerMd '>
-                <h1 className='title mb-20'>Competences</h1>
+        <div className={` ${style.competence} `} id="competences" >
+            <div className='containerBg '>
+                <h1 className='title p-10  mb-20'>Competences</h1>
                 <div className='d-flex flex-flow space-between align-items'>
                     <h3>HTML & CSS</h3>
                     <div className={`${style.container}`}>

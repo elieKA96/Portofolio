@@ -1,12 +1,11 @@
 import style from './Contact.module.scss';
 
-
 function Contact() {
     return (
-        <section className='containerMd'>
+        <section className='containerMd ' id='contact'>
 
             <section className={` ${style.contact} d-flex flex-column  align-items `}>
-                <h1 className='title mb-10'>Contact</h1>
+                <h1 className='title p-10  mb-10'>Contact</h1>
                 <div className={`${style.contentContact} d-flex  .flex-flow justify-content align-content `}>
 
                     <div >
@@ -35,3 +34,4 @@ function Contact() {
 }
 
 export default Contact;
+

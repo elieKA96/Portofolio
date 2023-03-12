@@ -14,8 +14,12 @@
     padding: 20px;
 }
 
-.p-30 {
-    padding: 30px;
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-30 {
+    padding-top: 30px;
 }
 
 .m-5 {
@@ -46,7 +50,10 @@
     margin-bottom: 10px;
 }
 
-/*.sticky {
-    position: sticky;
-    top: 0;
-}*/
+.ptb {
+    padding: 3.5rem 0;
+}
+
+.gap {
+    gap: 5rem;
+}

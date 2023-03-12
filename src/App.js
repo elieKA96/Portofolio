@@ -2,19 +2,21 @@ import Header from "./component/Header";
 import Apropos from "./component/Apropos";
 import Competences from "./component/Competences";
 import Services from "./component/Services";
-import Galerie from "./component/Galerie";
+
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import HeaderContent from "./component/HeaderContent";
+import Realisation from "./component/Realisation";
 //import style from "./App.module.scss"
 function App() {
   return (
-    <div className={`d-flex flex-column appContainer`}>
-
+    <div className="app-container">
       <Header />
+      <HeaderContent />
       <Apropos />
       <Competences />
       <Services />
-      <Galerie />
+      <Realisation />
       <Contact />
       <Footer />
     </div>

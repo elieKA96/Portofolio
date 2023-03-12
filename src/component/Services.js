@@ -2,20 +2,17 @@ import style from './Services.module.scss';
 
 function Services() {
     return (
-        <section className='containerMd'>
-            <section className={`${style.service}`}>
-                <h1 className='title mb-10'>Services</h1>
-                <div className={`${style.serviceContent} d-flex .flex-flow justify-content `}>
+        <section className='containerBg'>
+            <section className={`${style.service} `} id="services">
+                <h1 className='title p-10  mb-10'>Services</h1>
+                <div className={`${style.serviceContent} d-flex .flex-flow gap justify-content `}>
                     <div>
                         <p><i class="fa-solid fa-laptop-code"></i></p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text </p>
+                        <p>Réalisation des applications web responsives adaptables sur toutes formes d'ecran </p>
                     </div>
                     <div className='d-flex .flex-flow flex-column'>
-                        <p><i class="fa-sharp fa-solid fa-pen-ruler"></i></p>                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text </p>
+                        <p><i class="fa-sharp fa-solid fa-pen-ruler"></i></p>
+                        <p>Réalisation et conception des maquettes UX/UI  </p>
                     </div>
                 </div>
             </section>

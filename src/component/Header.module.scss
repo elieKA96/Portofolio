@@ -1,7 +1,10 @@
 .nav {
-    padding: 1rem 8rem;
+    padding: 1rem 6rem;
     background: var(--white-nav);
     line-height: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 
     h1 a {
         color: var(--dark-text);
@@ -9,8 +12,13 @@
         font-weight: 700;
     }
 
-    li {
+    /*li {
         padding-right: 1.3rem;
+        /*margin-top: 5px;
+    }*/
+
+    li a:last-child {
+        padding: 0.7rem;
     }
 
     li a {
