@@ -6,10 +6,10 @@ function HeaderContent() {
     return (
         <div className="containerBg" id='header'>
             <div className={`d-flex space-between ${style.content}`}>
-                <div className='vp-content' >
+                <div className={`${style.vpContent}`} >
                     <h1>Salut ! </h1>
                     <h1>Je suis <span>Elie Mbuyi Kayembe.</span></h1>
-                    <p>Dévoloppeur web - mobile et Bachelier en Informatique</p>
+                    <p>Dévoloppeur web - Web mobile et Bachelier en Informatique</p>
                     <a href={resumeElie} download="resume" className='btn btn-green'>Télecharger CV</a>
                 </div>
                 <div className='image'>

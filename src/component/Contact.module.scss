@@ -72,3 +72,12 @@
     }
 
 }
+
+@media screen and (max-width: 1085px) {
+    .contentContact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+}

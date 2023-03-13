@@ -33,3 +33,16 @@
         padding: 0.6rem;
     }
 }
+
+
+@media screen and (max-width: 605px) {
+    .service {
+        div {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    }
+}

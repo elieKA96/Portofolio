@@ -8,6 +8,8 @@
         color: var(--white);
     }
 
+
+
 }
 
 .container {
@@ -45,4 +47,19 @@
 .java {
     width: 60%;
     background-color: var(--green);
+}
+
+
+
+//605
+@media screen and (max-width: 605px) {
+    .competence {
+        div {
+            flex-direction: column;
+        }
+
+        h3 {
+            margin-bottom: 1rem;
+        }
+    }
 }

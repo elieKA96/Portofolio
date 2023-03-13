@@ -1,3 +1,5 @@
+@use '../asset/style/media_query';
+
 .nav {
     padding: 1rem 6rem;
     background: var(--white-nav);
@@ -39,6 +41,10 @@
     }
 }
 
+.vpContent {
+    margin-top: 4rem;
+}
+
 .content {
     padding: 4.5rem 6rem;
     background: var(--dark-content);
@@ -53,6 +59,7 @@
 
         color: var(--white);
         font-size: 2.5rem;
+
     }
 
     span {
@@ -69,10 +76,46 @@
 
     img {
         border-radius: 30px;
+        margin-top: 3.5rem;
     }
 
-    /*h1:first-child {
-        //padding-top: 2.5rem;
-    }*/
+}
+
+
+
+@media (max-width: 1199px) {
+    .content {
+        padding: 2rem 4rem;
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .content {
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .vpContent {
+        margin-top: 0;
+    }
+
+    .image {
+        width: 300px;
+    }
+
 
 }

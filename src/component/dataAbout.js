@@ -2,7 +2,7 @@ const about = [
     {
         id: 1,
         quote:
-            "Ayant le BAC+4, l'année passée 2022 en Informatique de L’université technique de communication et de l’informatique de Moscou, passionné de nouvelle technologie et de la programmation web et aussi ouvert à m’améliorer dans certains domaine comme dans l’analyse des données.",
+            "Récemment diplômé d'un bachelier en Informatique à L’université technique de communication et de l’informatique de Moscou, passionné de nouvelle technologie et de la programmation web et aussi ouvert à m’améliorer dans certains domaine comme dans l’analyse des données.",
     },
     {
         id: 2,
@@ -17,3 +17,9 @@ const about = [
 ];
 
 export default about;
+
+
+/**
+ * Récemment diplômé de bachelier en Informatique de L’université technique de communication et de l’informatique de Moscou, passionné de nouvelle technologie et de la programmation web et aussi ouvert à m’améliorer 
+ * dans certains domaine comme dans l’analyse des données.
+ */
