@@ -2,7 +2,7 @@ import style from './Contact.module.scss';
 
 function Contact() {
     return (
-        <section className='containerMd ' id='contact'>
+        <section className='containerBg ' id='contact'>
 
             <section className={` ${style.contact} d-flex flex-column  align-items `}>
                 <h1 className='title p-10  mb-10'>Contact</h1>

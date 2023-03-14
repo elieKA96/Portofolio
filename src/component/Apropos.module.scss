@@ -1,14 +1,4 @@
-h1,
-h2,
-h3,
-h4 {
-    letter-spacing: 0.1rem;
-    text-transform: capitalize;
-    line-height: 1.25;
-    margin-bottom: 0.75rem;
-}
-
-.section {
+/*.section {
     width: 90vw;
     margin: 5rem auto;
     max-width: 1170px;
@@ -32,19 +22,6 @@ h4 {
     color: hsl(21, 62%, 45%);
 }
 
-.section-center {
-    margin: 0 auto;
-    margin-top: 4rem;
-    width: 80vw;
-    height: 450px;
-    max-width: 800px;
-    text-align: center;
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    padding: 4rem 1rem;
-
-}
 
 article {
     position: absolute;
@@ -102,3 +79,22 @@ article.nextSlide {
 .next {
     right: 0;
 }
+
+
+
+/*
+*.section-center {
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 80vw;
+    height: 450px;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding: 4rem 1rem;
+
+}
+
+*/

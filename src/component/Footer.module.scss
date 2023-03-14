@@ -11,3 +11,27 @@
         color: var(--white);
     }
 }
+
+@media screen and (max-width:616px) {
+    .contact {
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width:492px) {
+    .contact {
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.6rem;
+        }
+    }
+}

@@ -6,6 +6,7 @@
     z-index: 2;
     height: 70px;
     padding: 1rem 6rem;
+    box-shadow: var(--box-shadow-nav);
 }
 
 .mobile-menu-icon {
@@ -62,7 +63,6 @@ a:last-child:hover {
         position: absolute;
         top: 15px;
         left: 35px;
-        /*h1*/
     }
 
     .nav-links {

@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
+    box-shadow: var(--box-shadow);
 
     h1 a {
         color: var(--dark-text);
@@ -12,10 +13,6 @@
         font-weight: 700;
     }
 
-    /*li {
-        padding-right: 1.3rem;
-        /*margin-top: 5px;
-    }*/
 
     li a:last-child {
         padding: 0.7rem;
@@ -50,7 +47,7 @@
 
     div:first-child {
         padding-top: 6rem;
-        height: 60vh;
+        height: 50vh;
     }
 
     h1 {
@@ -117,3 +114,18 @@
 
 
 }
+
+/*@media screen and (min-width:560px) {
+    .vpContent {
+        text-align: center;
+    }
+
+    .content {
+        height: 60vh;
+    }
+
+    img {
+        width: 300px;
+        text-align: center;
+    }
+}*/
