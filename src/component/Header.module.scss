@@ -115,6 +115,12 @@
 
 }
 
+@media screen and (max-width:492px) {
+    .content h1 a {
+        font-size: 1rem;
+    }
+}
+
 /*@media screen and (min-width:560px) {
     .vpContent {
         text-align: center;
