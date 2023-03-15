@@ -24,7 +24,7 @@ function Contact() {
                 </div>
                 <div className={`${style.social} d-flex justify-content align-items  space-around`}>
                     <a href='https://www.instagram.com/elie_mbka/' target={'_blank'}><i class="fa-brands fa-instagram"></i></a>
-                    <a href='https://www.linkedin.com/in/mbuyi-kayembe-335819264/' target={'_blank'}> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href='https://www.linkedin.com/in/elie-mbuyi-kayembe-335819264/' target={'_blank'}> <i class="fa-brands fa-linkedin"></i></a>
                     <a href='https://github.com/elieKA96' target={'_blank'}> <i class="fa-brands fa-github"></i></a>
                 </div>
             </section >
